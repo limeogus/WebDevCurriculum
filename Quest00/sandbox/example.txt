@@ -38,7 +38,8 @@
       libgit2 디렉토리로 이동하면 Checkout으로 생성한 파일을 볼 수 있고 당장 하고자 하는 일을 시작할 수 있다.
   ㆍadd : 수정하고 저장소에 저장하기 (※ git status : 파일의 상태 확인하기)
     - 사용법 : git add README
-      git status 명령을 다시 실행하면 README 파일이 Tracked 상태이면서 커밋에 추가될 Staged 상태라는 것을 확인 할 수 있다.
+      1.git status 명령을 다시 실행하면 README 파일이 Tracked 상태이면서 커밋에 추가될 Staged 상태라는 것을 확인 할 수 있다.
+      2.Modified 상태의 파일을 Stage 한다
   ㆍcommit
     - 사용법 : git commit
   ㆍpush
@@ -50,6 +51,7 @@
 
 * git의 Object, Commit, Head, Branch, Tag는 어떤 개념일까요? git 시스템은 프로젝트의 히스토리를 어떻게 저장할까요?
 * 리모트 git 저장소에 원하지 않는 파일이 올라갔을 때 이를 되돌리려면 어떻게 해야 할까요?
+
 
 ## Quest
 * GitHub에 가입한 뒤, [이 커리큘럼의 GitHub 저장소](https://github.com/KnowRe-Dev/WebDevCurriculum)의 우상단의 Fork 버튼을 눌러 자신의 저장소에 복사해 둡니다.
