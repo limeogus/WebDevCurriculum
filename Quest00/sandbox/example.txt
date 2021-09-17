@@ -40,7 +40,7 @@
     - 사용법 : git add README
       1.git status 명령을 다시 실행하면 README 파일이 Tracked 상태이면서 커밋에 추가될 Staged 상태라는 것을 확인 할 수 있다.
       2.Modified 상태의 파일을 Stage 한다
-  ㆍcommit
+  ㆍcommit : 로컬 저장소 저장 및 코멘트
     - 사용법 : git commit
   ㆍpush
     - 사용법 : git push origin master
