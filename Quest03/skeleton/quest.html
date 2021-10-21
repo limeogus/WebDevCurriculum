@@ -33,6 +33,38 @@
 		</section>
 
 		<script>
+
+			function astarPrint(){
+				let num=1;
+				let msg='';
+				let su;
+				let su2;
+
+				num = prompt('숫자를 입력하세요.');
+				su = num-1;	
+
+				for(var i=1; i <= num; i++){
+					su2 = num;
+					if(i==1){
+						for(var j=0; j <= su; j++){
+							msg+=' ';
+						}
+						msg+='*';
+					}
+					else{
+						let imsi =su2-i+1;
+						for(var j=0; j < imsi; j++){
+							msg+=' ';
+						}
+						for(var j=0; j < i*2-1; j++){
+							msg+='*';
+						}
+					}
+					msg+='\n'; 
+				}
+				console.log(msg);
+			}
+
 			let row1Squares = document.querySelectorAll('.row1 .square');
 			for(let node of row1Squares) {
 				/* TODO: node 변수를 어떻게 조작해야 할까요? */
