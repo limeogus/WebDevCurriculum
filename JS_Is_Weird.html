@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Is Weird</title>
+</head>
+
+<script>
+    console.log(true+false); // 1 + 9 = 1
+    console.log([,,,].length); // 3
+    console.log([1,2,3]+[4,5,6]); // [1,2,34,5,6]
+    console.log(0.2+0.1===0.3); //0.2 + 0.1; // -> 0.30000000000000004;
+    console.log(10,2); 
+    console.log(!!""); // !!0 → false
+    console.log(+!![]); // 1) !![]  → true  2) +true → 1
+    console.log(010-03); // 8 - 3
+    console.log("" - -""); // 0 - - 0
+    console.log(null + 0); // 0
+    console.log(0/0); //NaN
+    console.log(1/0> 10 ** 1000); // 1) 1/0→ Infinity 2) 10 ** 1000 → Infinity 3) Infinity > Infinity → "false"
+    console.log("" - 1); // -1
+    console.log((null - 0) + "0"); // 00
+    console.log(!5 + !5); // 0
+    console.log([] + []); // 
+    console.log(1+2+"3"); // 33
+    console.log(typeof NaN); // "number"
+    console.log(undefined + false); //NaN + 0 = NaN
+    console.log("" && -0); //
+    console.log(+!!NaN * "" - - [,]); // 0
+</script>
+<body>
+</body>
+</html>
